@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit Resume</title>
+</head>
+<body>
+    <h1>Submit Your Resume</h1>
+    <form method="POST" action="{{ url_for('submit_resume') }}">
+        <!-- Add resume submission fields here (e.g., name, email, file upload) -->
+        <input type="submit" value="Submit">
+    </form>
+    <a href="{{ url_for('index') }}">Go Back</a>
+</body>
+</html>
